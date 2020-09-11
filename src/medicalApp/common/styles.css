@@ -1,0 +1,40 @@
+
+.visitListPanes {
+    -fx-background-color: #354552;
+    -fx-border-color:  #243441;
+}
+.visitListPanes:hover {
+    -fx-background-color: #354552;
+    -fx-border-color:   #132330;
+    -fx-border-width: 3;
+}
+
+.namePaLabelVisitList {
+    /*fx-alignment: right;*/
+}
+
+.paImageVisitList {
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+
+.paMessagePane {
+    -fx-background-color: #354552;
+}
+.drMessagePane {
+    -fx-background-color: palevioletred;
+}
+.paMessageLabel {
+    -fx-text-fill: white;
+}
+.drMessageLabel {
+    -fx-text-fill: white;
+}
+/*.button {*/
+/*    -fx-background-color: #354552;*/
+/*}*/
+/*.button:hover {*/
+/*    -fx-background-color: white;*/
+/*    -fx-text-fill: #354552;*/
+
+/*}*/

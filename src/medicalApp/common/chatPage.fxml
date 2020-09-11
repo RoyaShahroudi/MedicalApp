@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" style="-fx-background-color: #132330;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medicalApp.common.ChatPage">
+   <children>
+      <Button fx:id="backBtn" layoutY="2.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="50.0" prefWidth="71.0" style="-fx-background-color: #132330;" text="⬅" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ScrollPane fx:id="usersScrollPane" layoutX="643.0" layoutY="56.0" prefHeight="471.0" prefWidth="230.0" style="-fx-background-color: #243441; -fx-background: #243441;" />
+      <ScrollPane fx:id="messagesScrollPane" layoutX="33.0" layoutY="56.0" prefHeight="422.0" prefWidth="580.0" style="-fx-background: #243441; -fx-background-color: #243441;" />
+      <TextField fx:id="messageField" alignment="CENTER_RIGHT" layoutX="33.0" layoutY="490.0" prefHeight="37.0" prefWidth="507.0" promptText="پیام خود را بنویسید ...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="sendBtn" layoutX="551.0" layoutY="490.0" mnemonicParsing="false" onAction="#sendBtn" prefHeight="37.0" prefWidth="63.0" style="-fx-background-color: #08a713;" text="✔" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="chatNameLabel" alignment="CENTER_RIGHT" layoutX="416.0" layoutY="14.0" prefHeight="30.0" prefWidth="185.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
